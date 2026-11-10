@@ -1,0 +1,17 @@
+{
+  "client_id": "https://snoels.github.io/braze-mcp-client/braze-mcp-client.json",
+  "client_name": "enoki-bugbounty-snoels",
+  "redirect_uris": [
+    "http://127.0.0.1:29891/callback",
+    "http://127.0.0.1/callback"
+  ],
+  "grant_types": [
+    "authorization_code",
+    "refresh_token"
+  ],
+  "response_types": [
+    "code"
+  ],
+  "token_endpoint_auth_method": "none",
+  "application_type": "native"
+}
